@@ -15,7 +15,6 @@ public class Main {
 				counter ++;
 			}
 		}
-		System.out.println("What difficulty would you like to play at? (hard or easy)");
 		Deck deck = new Deck(d);
 		GameBoard solitaire = new GameBoard(deck);
 		while(!solitaire.checkWin()) {
